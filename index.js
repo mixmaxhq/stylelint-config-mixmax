@@ -127,7 +127,7 @@ module.exports = {
     'declaration-empty-line-before': 'never',
 
     'declaration-block-semicolon-newline-after': 'always',
-    'declaration-block-semicolon-newline-before': 'never-single-line',
+    'declaration-block-semicolon-newline-before': 'never-multi-line',
     'declaration-block-semicolon-space-after': 'always-single-line',
     'declaration-block-semicolon-space-before': 'never',
     'declaration-block-trailing-semicolon': 'always',
