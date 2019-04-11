@@ -1,0 +1,40 @@
+{
+  "name": "stylelint-config-mixmax",
+  "version": "1.0.0",
+  "description": "Mixmax style guide for CSS.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmaxhq/stylelint-config-mixmax.git"
+  },
+  "keywords": [
+    "style",
+    "guide",
+    "lint",
+    "mixmax",
+    "css",
+    "sass",
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "author": "Andy Tran <andy@mixmax.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/stylelint-config-mixmax/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/stylelint-config-mixmax#readme",
+  "peerDependencies": {
+    "stylelint": ">=9.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-mixmax": "^2.1.0",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
