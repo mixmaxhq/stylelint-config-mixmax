@@ -27,7 +27,8 @@
   },
   "homepage": "https://github.com/mixmaxhq/stylelint-config-mixmax#readme",
   "peerDependencies": {
-    "stylelint": ">=9.10.1"
+    "stylelint": ">=10.0.0",
+    "stylelint-order": ">=3.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
