@@ -4,6 +4,9 @@ module.exports = {
   'extends': [
     '../index.js',
   ],
+  'plugins': [
+    'stylelint-order',
+  ],
   'rules': {
     'order/properties-order': [
       'content',
