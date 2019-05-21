@@ -14,7 +14,7 @@ module.exports = {
     ],
   ],
   'extends': [
-    '../index.js',
+    '../strict/index.js',
     'stylelint-config-styled-components',
   ],
   'rules': {
