@@ -28,12 +28,14 @@
   "homepage": "https://github.com/mixmaxhq/stylelint-config-mixmax#readme",
   "peerDependencies": {
     "stylelint": ">=10.0.0",
-    "stylelint-order": ">=3.0.0"
+    "stylelint-order": ">=3.0.0",
+    "stylelint-high-performance-animation": ">=1.2.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-mixmax": "^2.1.0",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "stylelint-high-performance-animation": "^1.2.1"
   },
   "pre-commit": [
     "lint"

@@ -1,7 +1,11 @@
 'use strict';
 
 module.exports = {
+  'plugins': [
+    'stylelint-high-performance-animation',
+  ],
   'rules': {
+    'plugin/no-low-performance-animation-properties': true,
     'color-no-invalid-hex': true,
 
     'font-family-no-duplicate-names': true,
