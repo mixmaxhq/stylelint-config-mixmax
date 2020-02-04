@@ -1,13 +1,9 @@
 'use strict';
 
 module.exports = {
-  'extends': [
-    '../index.js',
-  ],
-  'plugins': [
-    'stylelint-order',
-  ],
-  'rules': {
+  extends: ['../index.js'],
+  plugins: ['stylelint-order'],
+  rules: {
     'order/properties-order': [
       'content',
 
@@ -137,5 +133,5 @@ module.exports = {
       'visibility',
       'cursor',
     ],
-  }
+  },
 };

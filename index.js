@@ -1,10 +1,8 @@
 'use strict';
 
 module.exports = {
-  'plugins': [
-    'stylelint-high-performance-animation',
-  ],
-  'rules': {
+  plugins: ['stylelint-high-performance-animation'],
+  rules: {
     'plugin/no-low-performance-animation-properties': true,
     'color-no-invalid-hex': true,
 
@@ -32,25 +30,29 @@ module.exports = {
     'selector-pseudo-element-no-unknown': true,
     'selector-type-no-unknown': true,
 
-    'media-feature-name-no-unknown': [true, {
-      ignoreMediaFeatureNames: [
-        'min-device-pixel-ratio',
-      ],
-    }],
+    'media-feature-name-no-unknown': [
+      true,
+      {
+        ignoreMediaFeatureNames: ['min-device-pixel-ratio'],
+      },
+    ],
 
-    'at-rule-no-unknown': [true, {
-      'ignoreAtRules': [
-        'each',
-        'else',
-        'extend',
-        'function',
-        'for',
-        'if',
-        'include',
-        'mixin',
-        'return',
-      ],
-    }],
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: [
+          'each',
+          'else',
+          'extend',
+          'function',
+          'for',
+          'if',
+          'include',
+          'mixin',
+          'return',
+        ],
+      },
+    ],
 
     'comment-no-empty': true,
 
@@ -66,21 +68,30 @@ module.exports = {
 
     'number-max-precision': 2,
 
-    'unit-blacklist': ['em', {
-      'severity': 'warning',
-    }],
+    'unit-blacklist': [
+      'em',
+      {
+        severity: 'warning',
+      },
+    ],
 
     'shorthand-property-no-redundant-values': true,
 
-    'property-blacklist': ['float', {
-      'severity': 'warning',
-    }],
+    'property-blacklist': [
+      'float',
+      {
+        severity: 'warning',
+      },
+    ],
 
     'declaration-block-no-redundant-longhand-properties': true,
 
-    'comment-word-blacklist': ['/^TODO:/', {
-      'severity': 'warning',
-    }],
+    'comment-word-blacklist': [
+      '/^TODO:/',
+      {
+        severity: 'warning',
+      },
+    ],
 
     'no-unknown-animations': true,
 
@@ -106,16 +117,13 @@ module.exports = {
 
     'unit-case': 'lower',
 
-    'value-keyword-case': ['lower', {
-      ignoreKeywords: [
-        '/^(a|A)rial$/',
-        '/^(h|H)elvetica$/',
-      ],
-      ignoreProperties: [
-        'font',
-        'font-family',
-      ],
-    }],
+    'value-keyword-case': [
+      'lower',
+      {
+        ignoreKeywords: ['/^(a|A)rial$/', '/^(h|H)elvetica$/'],
+        ignoreProperties: ['font', 'font-family'],
+      },
+    ],
 
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
@@ -146,11 +154,11 @@ module.exports = {
     'block-opening-brace-space-after': 'always-single-line',
     'block-opening-brace-space-before': 'always',
 
-    'indentation': 2,
-    'linebreaks': 'unix',
+    indentation: 2,
+    linebreaks: 'unix',
     'max-empty-lines': 1,
     'no-eol-whitespace': true,
     'no-missing-end-of-source-newline': true,
-    'no-empty-first-line': true
+    'no-empty-first-line': true,
   },
 };
