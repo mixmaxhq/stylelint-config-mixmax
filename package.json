@@ -4,6 +4,7 @@
   "description": "Mixmax style guide for CSS.",
   "main": "index.js",
   "scripts": {
+    "ci": "npm run lint",
     "lint": "eslint ."
   },
   "repository": {
