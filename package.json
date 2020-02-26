@@ -31,9 +31,9 @@
   },
   "homepage": "https://github.com/mixmaxhq/stylelint-config-mixmax#readme",
   "peerDependencies": {
-    "stylelint": ">=10.0.0",
-    "stylelint-order": ">=3.0.0",
-    "stylelint-high-performance-animation": ">=1.2.0"
+    "stylelint": ">=13.2.0",
+    "stylelint-order": ">=4.0.0",
+    "stylelint-high-performance-animation": ">=1.4.0"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
@@ -46,7 +46,10 @@
     "pre-commit": "^1.2.2",
     "prettier": "^1.19.1",
     "semantic-release": "^17.0.4",
-    "stylelint-high-performance-animation": "^1.2.1"
+    "stylelint": "^13.2.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-high-performance-animation": "^1.4.0",
+    "stylelint-order": "^4.0.0"
   },
   "pre-commit": [
     "lint"

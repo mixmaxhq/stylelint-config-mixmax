@@ -95,7 +95,6 @@ module.exports = {
 
     'no-unknown-animations': true,
 
-    'color-hex-case': 'upper',
     'color-hex-length': 'long',
 
     'font-family-name-quotes': 'always-where-recommended',
@@ -161,4 +160,8 @@ module.exports = {
     'no-missing-end-of-source-newline': true,
     'no-empty-first-line': true,
   },
+  extends: [
+    // ensure this is last so it overides any other configs that might conflict with prettier.
+    'stylelint-config-prettier',
+  ],
 };
