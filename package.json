@@ -48,7 +48,7 @@
     "semantic-release": "^17.0.4",
     "stylelint": "^13.2.0",
     "stylelint-config-prettier": "^8.0.1",
-    "stylelint-high-performance-animation": "^1.4.0",
+    "stylelint-high-performance-animation": "^1.9.0",
     "stylelint-order": "^4.0.0"
   },
   "pre-commit": [
